@@ -8,7 +8,7 @@
 <link type="text/css" rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>생상관리 시스템</h2>
+    <h2>생산관리 시스템</h2>
     <form>
         <fieldset>
          <legend>생산관리 메인메뉴</legend>
