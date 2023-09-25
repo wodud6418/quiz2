@@ -23,6 +23,12 @@ public class SwController {
 			log.info("메인메뉴 실험중...");
 			
 		}
+		
+		@GetMapping("/productin")
+		public void productin() {
+			log.info("메인메뉴 실험중...");
+			
+		}
 
 
 		

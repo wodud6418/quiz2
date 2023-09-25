@@ -5,18 +5,18 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>우선생산 제품</title>
- <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+<title>그룹별 재고 수량</title>
+<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
 </head>
 <body>
 <fieldset id = "fs">
 	<legend>조회결과</legend>
 	<table border = "1">
-		<tr><th>제품이름</th><th>생산해야할수량</th></tr>
-		<c:forEach var = "priority" items = "${priorityList}">
+		<tr><th>그룹이름</th><th>재고 수량</th></tr>
+		<c:forEach var = "remaindata" items = "${remainList}">
 			<tr>
-				<td>${priority.pname}</td>
-				<td>${priority.pnum}</td>
+				<td>${remaindata.gname}</td>
+				<td>${remaindata.jnum}</td>
 			</tr>
 		</c:forEach>
 	</table>
@@ -24,10 +24,5 @@
 	<a href="mainMenu.mst">
   <input class="buttonss" type="button" value="메인화면"></a>
 </fieldset>
-
-
-
-
-
 </body>
 </html>

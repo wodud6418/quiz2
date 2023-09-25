@@ -10,18 +10,18 @@
 <body>
     <h2>생산관리 시스템</h2>
     <form>
-        <fieldset>
-         <legend>생산관리 메인메뉴</legend>
-        	  <a href="PRDCT.jsp">
-        	  	<button type="button" >제품입력</button></a>
-        	  <a href="PRDCTGO.jsp">
-        	  	<button type="button" >제품조회</button></a>
-         	  <a href="prrprd.jsp">
-         	  	<button type="button" >우선생산제품</button></a>
-              <a href="ranking.jsp">
-              	<button type="button" >이익순위</button></a><br/>
-     	 	  <a href="inventory.jsp">
-     	 	  	<button type="button" >그룹별재고수량</button></a>
+<fieldset>
+            <legend>생산관리 메인메뉴</legend>
+                <a href="productin">
+                    <input class="buttons" type="button" value="제품입력" ></a>
+                <a href="search">
+                    <input class="buttons" type="button" value="제품조회" ></a>
+            	<a href="priority">
+            		<input class="buttons" type="button" value="우선생산제품"></a>
+            	<a href="benefit">
+            		<input class="buttons" type="button" value="이익순위"></a><br/>
+            	<a href="remain">
+            		<input class="buttons" type="button" value="그룹별재고수량"></a>
         </fieldset>
     </form>  
 
