@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ page session="false" %>
 <html>
@@ -6,9 +8,9 @@
 </head>
 <body>
 <h1>
-	Hello world!  
+	HOME HOME HOME
 </h1>
 
-<P>  The time on the server is ${serverTime}. </P>
+<P> 그냥 Home 페이지 </P>
 </body>
 </html>
