@@ -4,9 +4,9 @@
 	"http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 	
 <mapper namespace="edu.mit.dao.SwMapper">
-
-	<select id="now" resultType="date">
-		select now()
+	
+	<select id="getList" resultType="edu.mit.dao.swVO">
+		select * from product; 
 	</select>
 	
 </mapper>

@@ -16,10 +16,8 @@ public class SwMapperTests {
 	@Autowired
 	SwMapper mapper;
 	
-	@Test
-	public void TestNow() {
-		log.info("현재시간:"+ mapper.now());
+
 	}
 	
 	
-}
+
